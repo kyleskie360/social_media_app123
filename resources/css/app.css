@@ -1,0 +1,56 @@
+/* Sidebar Container */
+.sidebar {
+    height: 100vh; /* Full height */
+    width: 250px;  /* Sidebar width */
+    position: fixed; /* Fixed sidebar */
+    top: 0;
+    left: 0;
+    background-color: #2c3e50; /* Background color */
+    color: #ecf0f1; /* Text color */
+    overflow-x: hidden; /* No horizontal scroll */
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Sidebar Links */
+.sidebar a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ecf0f1;
+    display: block;
+    transition: background 0.3s ease;
+}
+
+.sidebar a:hover {
+    background-color: #34495e; /* Hover color */
+}
+
+/* Active Link */
+.sidebar a.active {
+    background-color: #1abc9c; /* Active link color */
+    color: #fff;
+}
+
+/* Sidebar Header */
+.sidebar-header {
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 1px solid #34495e;
+}
+
+/* Content area */
+.content {
+    margin-left: 250px; /* Same as sidebar width */
+    padding: 20px;
+}
+
+.background-container {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 2rem; /* Adjust as needed */
+}
